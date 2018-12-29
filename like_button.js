@@ -11,7 +11,7 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return ( <div>'(12/26) *홍* : - '<br> '(12/26) **상 : - ' <br> '(12/27) *우* : -\n'</div>);
+      return ( <div>(12/26) *홍* : - <br> (12/26) **상 : - <br> (12/27) *우* : -\n</div>);
     }
 
     return e(
