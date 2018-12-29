@@ -1,6 +1,6 @@
 //'use strict';
 
-/*
+
 const e = React.createElement;
 
 class LikeButton extends React.Component {
@@ -11,17 +11,16 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return '(12/26) *홍* : - \n(12/26) **상 : - \n(12/27) *우* : -\n';
+      return '(12/26) *홍* : - '<br> '(12/26) **상 : - ' <br> '(12/27) *우* : -\n';
     }
 
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'linlinl'
+      '투자자 리스트'
     );
   }
 }
 
 const domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(e(LikeButton), domContainer);
-*/
