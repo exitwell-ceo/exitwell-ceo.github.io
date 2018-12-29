@@ -10,13 +10,13 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'You liked this.';
+      return '(12/26) *홍* : - \n(12/26) **상 : - \n(12/27) *우* : -\n';
     }
 
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Like'
+      '투자자 리스트'
     );
   }
 }
